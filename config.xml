@@ -1,0 +1,12 @@
+<widget id="be.clercky.testApp" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>testApp</name>
+    <description>Een simpele EHBO-app die EHBO ondersteuning biedt tijdens no
+odgevallen volgens de Belginsche wetgeving.</description>
+    <author href="https://github.com/SamClercky/test">Clercky</author>
+    <content src="index.html"></content>
+    <platform name="ios" />
+    <platform name="android" />
+    <platform name="winphone" />
+    <access origin="*" />
+    <plugin name="cordova-plugin-camera" />
+</widget>

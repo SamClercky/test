@@ -1,4 +1,6 @@
+alert("Hallo iedereen, alles wordt klaargemaakt");
+
 document.addEventListener("deviceready", () => {
-    alert(navigator.camera)
+    alert("Klaar")
     navigator.camera.getPicture()
-})
+}, false);
